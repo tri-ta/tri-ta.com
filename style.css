@@ -1,0 +1,192 @@
+/* とり〜たのCSS */
+
+/* 要素名に直接スタイル設定 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	min-height:	100%;
+}
+
+body {
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	background: black;
+}
+
+a {
+	color: #B00;
+}
+
+a img {
+	border: none;
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-size: medium;
+}
+
+/* id, classにスタイル設定 */
+
+div#container {
+	overflow: hidden;
+	background: white;
+	padding: 40px 0 20px 30px;
+	margin: 8px 0 0 0;
+	width: auto;
+	height: 100%;
+}
+
+div#mainContainer {
+	float: left;
+	width: auto;
+	margin: 0 0 0 0;
+}
+
+div#mainContainer h2 {
+	clear: left;
+	padding: 0 0 20px 0;
+}
+
+div#subContainer {
+	float: right;
+	width: 280px;
+}
+
+div#subContainer h2 {
+	clear: left;
+	margin: 0 0 20px 0;
+}
+
+dl.services {
+	clear: both;
+	margin: 0 0 0 30px;
+}
+
+dl.services dt {
+	clear: left;
+	float: left;
+	display: block;
+	margin: 0 0 30px 0;
+}
+
+dl.services dd {
+	float: left;
+	margin: 0 0 30px 20px;
+}
+
+dl.services dd h3 a,
+dl.services dd.closed h3 a {
+	font-size: large;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+dl.services dd.closed {
+	color: #999;
+}
+
+dl.services dd.closed a {
+	color: #D66;
+}
+
+dl.members {
+	clear: both;
+	margin: 0 0 0 30px;
+}
+
+dl.members dt {
+	clear: left;
+	float: left;
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+dl.members dd {
+	float: left;
+	margin: 0 0 20px 20px;
+}
+
+dl.members dd h3 {
+	font-size: large;
+	font-weight: bold;
+}
+
+ul#membersBlog {
+	margin: 0 0 80px 0;
+	list-style-type: none;
+}
+
+ul#membersBlog li {
+	clear: left;
+	display: block;
+	list-style-type: none;
+}
+
+ul#membersBlog li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul#membersBlog li a.memberIcon {
+	display: block;
+	clear: left;
+	float: left;
+	width: 30px;
+	margin: 0 0 10px 0;
+}
+
+ul#membersBlog li p {
+	float: left;
+	display: block;
+	width: 230px;
+	margin: 0 0 10px 10px;
+	padding: 0;
+}
+
+ul#membersTwit {
+	margin: 0 0 80px 0;
+	list-style-type: none;
+}
+
+ul#membersTwit li {
+	clear: left;
+	display: block;
+	list-style-type: none;
+}
+
+ul#membersTwit li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul#membersTwit li a.memberIcon {
+	display: block;
+	clear: left;
+	float: left;
+	width: 30px;
+	margin: 0 0 10px 0;
+}
+
+ul#membersTwit li p {
+	float: left;
+	display: block;
+	width: 230px;
+	margin: 0 0 10px 10px;
+	padding: 0;
+}
+
+div#footer {
+	text-align: right;
+	padding: 10px 30px 5px 30px;
+}
+
+div#footer img#copyright{
+	float: left;
+}
